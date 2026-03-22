@@ -1,0 +1,6 @@
+._zinit/
+*.zwc
+._backup
+CLAUDE.md
+*_todo.md
+docs/
