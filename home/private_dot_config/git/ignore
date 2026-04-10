@@ -1,0 +1,10 @@
+.DS_Store
+
+._zinit/
+*.zwc
+._backup
+
+docs/
+*_todo.md
+CLAUDE.md
+.claude
