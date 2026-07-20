@@ -1,0 +1,37 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.java]
+
+# 缩进
+indent_style = space
+indent_size = 4
+
+# Java 特殊规则
+ij_java_blank_lines_after_imports = 1
+ij_java_blank_lines_around_class = 1
+
+# import 顺序（IntelliJ / VS Code 都能部分识别）
+ij_java_imports_layout = *,|,javax.**,java.**
+
+# 空格风格
+ij_java_space_after_comma = true
+ij_java_space_before_method_call_parentheses = false
+ij_java_space_before_if_parentheses = true
+ij_java_space_before_for_parentheses = true
+ij_java_space_before_while_parentheses = true
+
+# wrap（换行策略）
+ij_java_method_call_chain_wrap = normal
+ij_java_binary_operation_sign_on_next_line = true
+
+[*.xml]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
